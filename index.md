@@ -150,9 +150,9 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
+  Ver direcciones con
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
+  o
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
 </p>
 {% elsif online == "true_public" %}
@@ -193,10 +193,10 @@ Modify the block below if there are any special requirements.
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Los participantes deben tener acceso a una computadora con
+    Sistema operativo Mac, Linux o Windows (no una tableta, Chromebook, etc.) con privilegios de administración.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Deben tener algunos paquetes de software específicos instalados (listados <a href="#setup">abajo</a>).
 </p>
 
 {% comment %}
@@ -208,20 +208,20 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibility:</strong>
 {% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  Estamos comprometidos a hacer de este taller
+  accesible a todos. Para los talleres en un lugar físico, los organizadores del taller han comprobado que:
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>El salón es accesible para sillas de ruedas o scooters.</li>
+  <li>Hay baños accesibles disponibles.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+  Los materiales se proporcionarán antes del taller y
+  folletos en letra grande están disponibles previa notificación a los
+  organizadores. Si podemos ayudar a que el aprendizaje sea más fácil para
+  usted (por ejemplo, intérpretes de lengua de signos, instalaciones de lactancia), por favor
+  póngase en contacto (utilizando los datos de contacto a continuación) e
+  intentarémos proporcionárselos.
 </p>
 {% else %}
   We are dedicated to providing a positive and accessible learning environment for all. 
@@ -240,12 +240,12 @@ CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact:</strong>
-  Please email
+  <strong>Contacto:</strong>
+  Por favor envíe un correo electrónico 
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
-  or
+  o
   {% else %}
   {% unless forloop.first %}
   ,
@@ -256,21 +256,19 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  para más información.
 </p>
 
 <p id="roles">
   <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  Para obtener más información sobre los roles en el taller (quién hará qué), consulte nuestras <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Preguntas frecuentes</a> sobre el taller.
 </p>
 
 
-QUIEN PUEDE ASISTIR?
+<strong>QUIEN PUEDE ASISTIR?</strong>
 
 El taller esta enfocado a principiantes interesados en aprender a programar en python. Es necesario registrarse y recibir confirmación para poder asistir. El cupo esta limitado a 35 participantes.
 
-Es necesario contar con computadora.
 
 {% comment %}
 <p> tag to make this section visible.
@@ -293,7 +291,7 @@ Edit the text to match who can attend the workshop. For instance:
 CODE OF CONDUCT
 {% endcomment %}
 <h2 id="code-of-conduct">Code of Conduct</h2>
-
+s
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
