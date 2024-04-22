@@ -276,9 +276,23 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Quién puede asistir?:</strong>
-    El taller esta enfocado a principiantes interesados en aprender a programar en python. Es necesario registrarse y recibir confirmación para poder asistir. El cupo esta limitado a 35 participantes.
+    El taller esta enfocado a principiantes interesados en aprender a programar en python.
 </p>
 
+
+<hr/>
+
+{% comment%}
+REGISTRO
+{% endcomment %}
+<h2 id="register">Registro</h2>
+Es necesario registrarse y recibir confirmación para poder asistir. 
+
+<strong>El cupo esta limitado a 35 participantes.</strong>
+
+<p>
+
+</p>
 
 <hr/>
 
