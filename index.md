@@ -219,7 +219,7 @@ special instructions.
   Los materiales se proporcionarán antes del taller y
   folletos en letra grande están disponibles previa notificación a los
   organizadores. Si podemos ayudar a que el aprendizaje sea más fácil para
-  usted (por ejemplo, intérpretes de lengua de signos, instalaciones de lactancia), por favor
+  usted (por ejemplo, intérpretes de lengua de señas, instalaciones de lactancia), por favor
   póngase en contacto (utilizando los datos de contacto a continuación) e
   intentarémos proporcionárselos.
 </p>
@@ -285,10 +285,10 @@ Edit the text to match who can attend the workshop. For instance:
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
-s
+<h2 id="code-of-conduct">Código de Conducta</h2>
+
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Todas las personas que participan en las actividades de Carpentries deben cumplir con el <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Código de Conducta</a>. Este documento también describe cómo informar un incidente si es necesario.
 </p>
 
 <p class="text-center">
@@ -313,10 +313,10 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h2 id="collaborative_notes">Notas Colaborativas</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+Usaremos este  <a href="{{ page.collaborative_notes }}">documento colaborativo</a> para chatear, tomar notas y compartir URL y fragmentos de código.
 </p>
 <hr/>
 {% endif %}
@@ -325,11 +325,11 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<h2 id="surveys">Encuestas</h2>
+<p>Asegúrese de completar estas encuestas antes y después del taller.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.incubator_pre_survey }}">Encuesta previa al taller</a></p>
+<p><a href="{{ site.incubator_post_survey }}">Encuesta posterior al taller</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
@@ -369,7 +369,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Calendario de Actividades</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -383,7 +383,7 @@ Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list 
 {% endif %}
 
 {% comment %}
-Edit/replace the text above if you want to include a schedule table.
+Edit/replace the text above if you want to iSchedulenclude a schedule table.
 See the contents of the _includes/custom-schedule.html file for an example of
 how one of these schedule tables is constructed.
 {% endcomment %}
