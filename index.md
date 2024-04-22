@@ -288,7 +288,7 @@ REGISTRO
 <h2 id="register">Registro</h2>
 Es necesario registrarse y recibir confirmación para poder asistir. 
 
-<strong>El cupo esta limitado a 35 participantes.</strong>
+<strong>El cupo esta limitado a 30 participantes.</strong>
 
 <p>
 
