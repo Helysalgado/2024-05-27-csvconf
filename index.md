@@ -293,7 +293,7 @@ Todas las personas que participan en las actividades de Carpentries deben cumpli
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Reporta un incidente del código de conducta</button>
   </a>
 </p>
 <hr/>
@@ -340,8 +340,8 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Encuesta previa al taller</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Encuesta posterior al taller</a></p>
 {% endif %}
 
 <hr/>
@@ -407,10 +407,10 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Configuración</h2>
 
 <p>
-  To participate in a
+  Para participar en un taller de
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -418,14 +418,12 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  ,
+  necesitará acceso al software como se describe a continuación.
+  Además, necesitará un navegador web actualizado.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Mantenemos una lista de problemas comunes que ocurren durante la instalación como referencia para los instructores que pueden ser útiles en la página wiki de <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Problemas y soluciones de configuración</a>.
 </p>
 
 {% comment %}
