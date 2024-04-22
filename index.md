@@ -81,7 +81,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Información General</h2>
 
 {% comment %}
 INTRODUCTION
@@ -91,15 +91,15 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
+El proyecto <strong><a href="https://carpentries.org">The Carpentries</a></strong> incluye las comunidades de instructores, formadores, mantenedores, ayudantes y personal de apoyo de <a
+href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, y
+<a href="{{site.lc_site}}">Library Carpentry</a> que comparten la misión de enseñar habilidades básicas de computación y ciencia de datos a los investigadores.
+
 <p align="center">
   <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+
+  <strong>¿Quiere obtener más información y seguir interactuando con The Carpentries? </strong> Carpentries Clippings es el boletín quincenal de The Carpentries, donde compartimos noticias de la comunidad, ofertas de trabajo de la comunidad y más. Regístrese para recibir ediciones futuras y leer nuestro archivo completo: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+
   </em>
 </p>
 {% if site.carpentry == "swc" %}
@@ -263,13 +263,14 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
+
+QUIEN PUEDE ASISTIR?
+
+El taller esta enfocado a principiantes interesados en aprender a programar en python. Es necesario registrarse y recibir confirmación para poder asistir. El cupo esta limitado a 35 participantes.
+
+Es necesario contar con computadora.
+
 {% comment %}
-WHO CAN ATTEND?
-
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
 <p> tag to make this section visible.
 
 Edit the text to match who can attend the workshop. For instance:
