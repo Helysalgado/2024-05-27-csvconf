@@ -120,6 +120,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
+
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
@@ -136,6 +137,7 @@ if the latitude and longitude of the workshop have been set.  You
 can use https://www.latlong.net/ to find the lat/long of an
 address.
 {% endcomment %}
+
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
 {% assign online = "true_private" %}
