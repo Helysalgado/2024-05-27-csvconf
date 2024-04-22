@@ -148,7 +148,7 @@ address.
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Dónde:</strong>
   {{page.address}}.
   Ver direcciones con
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
@@ -157,14 +157,14 @@ address.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Dónde:</strong>
   online at <a href="{{page.address}}">{{page.address}}</a>.
   If you need a password or other information to access the training,
   the instructor will pass it on to you before the workshop.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
+  <strong>Dónde:</strong> This training will take place online.
   The instructors will provide you with the information you will need to connect to this meeting.
 </p>
 {% endif %}
@@ -176,7 +176,7 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>Cuando:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
 </p>
@@ -188,7 +188,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong>
+  <strong>Requisitos previos:</strong>
   {% if online == "false" %}
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
@@ -206,7 +206,7 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong>
+  <strong>Accesibilidad:</strong>
 {% if online == "false" %}
   Estamos comprometidos a hacer de este taller
   accesible a todos. Para los talleres en un lugar físico, los organizadores del taller han comprobado que:
