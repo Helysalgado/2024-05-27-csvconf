@@ -264,12 +264,6 @@ Display the contact email address set in the configuration file.
   Para obtener más información sobre los roles en el taller (quién hará qué), consulte nuestras <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">Preguntas frecuentes</a> sobre el taller.
 </p>
 
-
-<strong>QUIEN PUEDE ASISTIR?</strong>
-
-El taller esta enfocado a principiantes interesados en aprender a programar en python. Es necesario registrarse y recibir confirmación para poder asistir. El cupo esta limitado a 35 participantes.
-
-
 {% comment %}
 <p> tag to make this section visible.
 
@@ -278,12 +272,13 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
+{% endcomment %}
 
 <p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    <strong>Quién puede asistir?:</strong>
+    El taller esta enfocado a principiantes interesados en aprender a programar en python. Es necesario registrarse y recibir confirmación para poder asistir. El cupo esta limitado a 35 participantes.
 </p>
-{% endcomment %}
+
 
 <hr/>
 
