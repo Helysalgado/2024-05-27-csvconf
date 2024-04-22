@@ -190,8 +190,8 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requisitos previos:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Los participantes deben tener acceso a una computadora con
+    Sistema operativo Mac, Linux o Windows (no una tableta, Chromebook, etc.) con privilegios de administración.
   {% else %}
     Los participantes deben tener acceso a una computadora con
     Sistema operativo Mac, Linux o Windows (no una tableta, Chromebook, etc.) con privilegios de administración.
