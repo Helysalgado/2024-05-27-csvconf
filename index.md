@@ -150,7 +150,7 @@ address.
 <p id="where">
   <strong>Dónde:</strong>
   {{page.address}}.
-  Para detalles de dirección y cómo llegar checa <strong><a href="https://csvconf.com/location/location-es/"Cómo llegar</a></strong> en la página web del congreso.
+  Para detalles de dirección y cómo llegar checa <strong><a href="https://csvconf.com/location/location-es/">Cómo llegar</a></strong> en la página web del congreso.
   
   Ver direcciones con
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
@@ -296,6 +296,7 @@ Es necesario <strong>REGISTRARSE</strong> llenando la <a href="https://forms.gle
 La solicitud será evaluada por el comité y le dará una respuesta a través del correo electrónico que proporcionó en la solicitud. Si por causas de fuerza mayor no puede asistir al taller, favor de responder en el mismo correo, para dar espacio a otras personas interesadas.
 
 
+<br>
 <br>
 <strong>El cupo esta limitado a 30 participantes.</strong>
 
