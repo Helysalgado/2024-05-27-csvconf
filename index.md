@@ -289,7 +289,10 @@ Edit the text to match who can attend the workshop. For instance:
 REGISTRO
 {% endcomment %}
 <h2 id="register">Registro</h2>
-Es necesario <strong>REGISTRARSE</strong> llenando la <a href="https://forms.gle/CQjgmnhUoLZCGtsq9">Solicitud de Inscripción<a>.
+Es necesario <strong>REGISTRARSE</strong> llenando la 
+<a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
+    <button type="button" class="btn btn-info">Solicitud de Inscripción.</button>
+  </a>
 
 <br>
 <br>
