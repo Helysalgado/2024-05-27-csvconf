@@ -286,7 +286,11 @@ Edit the text to match who can attend the workshop. For instance:
 REGISTRO
 {% endcomment %}
 <h2 id="register">Registro</h2>
-Es necesario <a href="https://forms.gle/CQjgmnhUoLZCGtsq9">REGISTRARSE<a> y recibir confirmación para poder asistir. 
+Es necesario <strong>REGISTRARSE</strong> llenando la <a href="https://forms.gle/CQjgmnhUoLZCGtsq9">Solicitud de Inscripción<a>.
+
+<p>
+La solicitud será evaluada por el comité y le dará una respuesta a través del correo electrónico que proporcionó en la solicitud. Si por causas de fuerza mayor no puede asistir al taller, favor de responder en el mismo correo, para dar espacio a otras personas interesadas.
+</p>
 
 <br>
 <strong>El cupo esta limitado a 30 participantes.</strong>
