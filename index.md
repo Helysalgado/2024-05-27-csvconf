@@ -290,7 +290,7 @@ REGISTRO
 {% endcomment %}
 <h2 id="register">Registro</h2>
 Es necesario <strong>REGISTRARSE</strong> llenando la 
-<a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
+<a href="https://forms.gle/CQjgmnhUoLZCGtsq9">
     <button type="button" class="btn btn-info">Solicitud de Inscripción.</button>
   </a>
 
