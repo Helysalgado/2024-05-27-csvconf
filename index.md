@@ -286,8 +286,9 @@ Edit the text to match who can attend the workshop. For instance:
 REGISTRO
 {% endcomment %}
 <h2 id="register">Registro</h2>
-Es necesario registrarse y recibir confirmación para poder asistir. 
+Es necesario <a href="https://forms.gle/CQjgmnhUoLZCGtsq9">REGISTRARSE<a> y recibir confirmación para poder asistir. 
 
+<br>
 <strong>El cupo esta limitado a 30 participantes.</strong>
 
 <p>
