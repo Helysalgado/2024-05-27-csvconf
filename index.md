@@ -290,9 +290,10 @@ REGISTRO
 {% endcomment %}
 <h2 id="register">Registro</h2>
 Es necesario <strong>REGISTRARSE</strong> llenando la 
-<a href="https://forms.gle/CQjgmnhUoLZCGtsq9">
-    <button type="button" class="btn btn-info">Solicitud de Inscripción.</button>
+<a href="https://forms.gle/zh3d5aH8qpxgeQis9">
+    <button type="button" class="btn btn-info">Solicitud de Inscripción. </button>
   </a>
+De preferencia abrir en navegador Chrome.
 
 <br>
 <br>
