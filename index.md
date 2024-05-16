@@ -293,7 +293,7 @@ Es necesario <strong>REGISTRARSE</strong> llenando la
 <a href="https://forms.gle/zh3d5aH8qpxgeQis9">
     <button type="button" class="btn btn-info">Solicitud de Inscripción. </button>
   </a>
-De preferencia abrir en navegador Chrome.
+( Preferentemente usa el navegador Chrome para abrir la página ).
 
 <br>
 <br>
@@ -304,6 +304,7 @@ La solicitud será evaluada por el comité y le dará una respuesta a través de
 <br>
 <strong>El cupo esta limitado a 30 participantes.</strong>
 
+<FONT COLOR="red">CUPO LLENO.</FONT> Agradecemos tu participación.
 <p>
 
 </p>
