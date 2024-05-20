@@ -304,7 +304,7 @@ La solicitud será evaluada por el comité y le dará una respuesta a través de
 <br>
 <strong>El cupo esta limitado a 30 participantes.</strong>
 
-<FONT COLOR="red"><strong>CUPO LLENO.</strong></FONT> Agradecemos tu participación.
+<!-- FONT COLOR="red"><strong>CUPO LLENO.</strong></FONT> Agradecemos tu participación -->
 <p>
 
 </p>
