@@ -16,7 +16,7 @@ enddate: 2024-05-28        # machine-readable end date for the workshop in YYYY-
 instructor: ["Gabriel Alarcón Carranza", "Shaday Guerrero Flores"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Heladia Salgado", "Haydeé Contreras Peruyero", "Evelia Coss Navarrete"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["helysalgado@gmail.com","shaday@matmor.unam.mx", "alarcongabriel128@gmail.com","ecoss@liigh.unam.mx","haydeeperuyero@matmor.unam.mx"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://docs.google.com/document/d/1C54eu5TB3uMBiTmn1cy7SRZ7HGTW6KuT9VHmVOsTiTY/edit?usp=sharing # https://pad.carpentries.org/2024-05-27-csvconf  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://docs.google.com/document/d/1aL570D2lqN_0bHSR9s-EDkNjowodZGRDmR4e71YvqnY/edit?usp=sharing # https://pad.carpentries.org/2024-05-27-csvconf  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 
 ---
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
